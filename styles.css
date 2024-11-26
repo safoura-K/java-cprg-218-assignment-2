@@ -1,0 +1,213 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F4E3;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #FF8C00, #FF4500);
+    color: #fff;
+    padding: 10 px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Cairo', sans-serif;
+}
+header img {
+    width: 20rem;
+    margin-top: 10px;
+}
+
+
+main {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+}
+
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #FF4500;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #444;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+div{
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    align-items: center;
+}
+button {
+    background-color: #FF4500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FF8C00;
+}
+
+.intro{
+    border-radius: 2%;
+    margin: 5px;
+    padding: 10px 20px;
+}
+.history{
+    border-radius: 2%;
+    margin: 5px;
+    padding: 10px 20px;
+   
+}
+.situation{
+    border-radius: 2%;
+    margin: 5px;
+    padding: 10px 20px;
+
+}
+.today{
+    border-radius: 2%;
+    margin: 5px;
+    padding: 10px 20px;
+
+}
+
+
+/* Responsive styles */
+
+/* (320px to 600px) */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    header img {
+        width: 7.8rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+
+    main {
+        padding: 15px;
+        max-width: 100%;
+    }
+}
+
+/*  (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    section p {
+        font-size: 1.1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    main {
+        padding: 20px;
+        max-width: 100%;
+    }
+}
+
+/*  (901px to 1200px) */
+@media (min-width: 901px) and (max-width: 1200px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+
+    section p {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 1.1rem;
+        padding: 12px 25px;
+    }
+
+    main {
+        padding: 25px;
+        max-width: 900px;
+    }
+}
+
+/* (1201px to 3200px) */
+@media (min-width: 1201px) and (max-width: 3200px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    section h2 {
+        font-size: 2.5rem;
+    }
+
+    section p {
+        font-size: 1.3rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 15px 30px;
+    }
+
+    main {
+        padding: 30px;
+        max-width: 1200px;
+    }
+}
+
